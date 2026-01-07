@@ -151,13 +151,7 @@ roller_assignment/
     └── public/              # Public files
 ```
 
-## Output Artifacts
 
-The application generates the following outputs:
-
-1. **Timeline Plan JSON**: Detailed plan for B-roll insertion with timestamps and video segments
-2. **Processing Logs**: Comprehensive logs of video analysis and processing
-3. **Optional Rendered Video**: Final video output with B-roll insertions (future enhancement)
 
 ## Development
 
