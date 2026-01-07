@@ -165,7 +165,7 @@ The application generates the following outputs:
 
 ```bash
 cd roller_backend
-npm run dev  # Starts with nodemon for auto-reload
+npm start  # Starts with nodemon for auto-reload
 ```
 
 ### Frontend Development
