@@ -13,6 +13,7 @@ import chalk from './src/utils/chalk.js';
 import DatabaseConnection from './src/config/mongoWrapper.js';
 import logger from './src/utils/logger.js';
 import brollRoutes from './src/routes/broll.routes.js';
+import userRoutes from './src/routes/user.route.js'
 
 let dbConnection;
 const app = express();
@@ -68,6 +69,7 @@ app.get('/health', (req, res) => {
 
 // API Routes
 app.use('/api/broll', brollRoutes);
+app.use('/api',userRoutes)
 
 server.listen(serverConfig.PORT, () => {
   logger.info(`index.js << Server listening on port ${serverConfig.PORT}`);
