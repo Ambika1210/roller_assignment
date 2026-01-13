@@ -151,13 +151,7 @@ roller_assignment/
     └── public/              # Public files
 ```
 
-## Output Artifacts
 
-The application generates the following outputs:
-
-1. **Timeline Plan JSON**: Detailed plan for B-roll insertion with timestamps and video segments
-2. **Processing Logs**: Comprehensive logs of video analysis and processing
-3. **Optional Rendered Video**: Final video output with B-roll insertions (future enhancement)
 
 ## Development
 
@@ -165,7 +159,7 @@ The application generates the following outputs:
 
 ```bash
 cd roller_backend
-npm run dev  # Starts with nodemon for auto-reload
+npm start  # Starts with nodemon for auto-reload
 ```
 
 ### Frontend Development
@@ -190,15 +184,7 @@ The application uses Winston for comprehensive logging:
 - Different log levels (info, error, debug)
 - Request/response logging for API calls
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
-## License
 
-This project is licensed under the ISC License.
 <img width="916" height="459" alt="live image" src="https://github.com/user-attachments/assets/30158735-e82a-40e2-81cb-0deee0abeb58" />
